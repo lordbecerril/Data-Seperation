@@ -1,2 +1,2 @@
 # Data-Seperation
-Seperating data
+Programs made for seperating or analyzing datasets
