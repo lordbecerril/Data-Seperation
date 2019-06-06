@@ -14,8 +14,6 @@ int main()
   outfile.open("f.txt");
   getline(infile, holster);
 
-  cout << holster << endl;
-
   int len = holster.size();
 
   string dummy = "";
@@ -29,6 +27,7 @@ int main()
     }
     else{
       cout << "Column " << c << " is " << dummy << ". ";
+      outfile << "Column " << c << " is " << dummy << ". "; // Check f.txt for the formatted csv row
       dummy = "";
       c++;
     }
