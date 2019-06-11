@@ -19,11 +19,11 @@ int main()
   ofstream twenty17;
   ofstream twenty18;
 
-  twenty14.open("NewYork2014.txt");
-  twenty15.open("NewYork2015.txt");
-  twenty16.open("NewYork2016.txt");
-  twenty17.open("NewYork2017.txt");
-  twenty18.open("NewYork2018.txt");
+  twenty14.open("NewYork2014.csv");
+  twenty15.open("NewYork2015.csv");
+  twenty16.open("NewYork2016.csv");
+  twenty17.open("NewYork2017.csv");
+  twenty18.open("NewYork2018.csv");
 
   getline(infile, top);
 
